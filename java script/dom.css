@@ -1,0 +1,19 @@
+.maccha{
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkmagenta;
+}
+.maccha-img img{
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+}
+.aliya{
+    display: flex;
+    justify-content:space-evenly;
+
+}

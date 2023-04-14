@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fun1(){
+            console.log("single clicked");
+        }
+        function fun2(){
+            console.log("doubled clicked");
+        }
+    </script>
+</head>
+<body>
+    <h1>demo on event</h1>
+
+    <!--
+        -> Events are the operations performed on web page like clickig,selecting,copying etc....
+        ->always events has to be used as a attributes on html elements
+
+    -->
+    <button onclick="fun1()">Click here</button>
+    <button ondblclick="fun2()">Double here</button>
+
+
+    <h3>on key down</h3>
+    <input type="text" onkeydown="console.log('counting the typing and removing the key')">
+    <h3>on key press</h3>
+    <input type="text" onkeypress="console.log('continuosly counting without remove key')">
+    <h3>on key up</h3>
+    <input type="text" onkey up="console.log('continuosly counting without remove key')">
+    
+</body>
+</html>

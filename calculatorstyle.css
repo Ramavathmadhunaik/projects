@@ -1,0 +1,111 @@
+*{margin: 0;
+    padding: 0;
+    background-color: #202024;
+}
+body{
+    height: 760px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    border-radius: 12px;
+    height: 75%;
+    width: 30%;
+    background-color: #39393B;
+    border-radius: 50px;
+}
+
+.main .inp{
+    display: flex;
+flex-direction: row-reverse;
+justify-content: space-around;
+}
+
+.main .inp input{
+ border: none;
+ padding: 20px;
+ border-radius: 15px;
+ background-color: #A2AF77;
+ position: absolute;
+top: 30px;
+text-align:end;
+font-size: 250%;
+height: 10%;
+color: #fff;
+width: 70%;
+}
+
+.mainbtn{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 70%;
+    gap: 10px;
+    align-self: center;
+    background-color: transparent;
+    position: absolute;
+    top: 35%;
+    
+}
+
+.mainbtn button{
+    cursor: pointer;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: #58595B;
+    border: none;
+    align-self: center;
+    transition: transform 3s;
+    color: #fff;
+}
+
+    .mainbtn button:hover{
+            background-color: #202024;
+            }
+
+#equal{
+    width: 468%;
+}
+
+
+.owner{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 44%;
+    top: 87%;
+    color: #9797f1;                        
+}
+
+#sp{
+    position: absolute;
+    top: 28%;
+    left: 17%;
+    background-color: transparent;
+    color: #202024;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .main{
+        width: 80%;
+        left: 10%;
+    }
+
+    .mainbtn{
+        width: auto;
+    }
+
+    .main .inp input{
+        font-size: 180%;
+    }
+
+
+    
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            margin-left: 500px;
+            width: 300px;
+            height: 300px;
+            padding: 50px;
+
+        }
+        input{
+            border-radius: 20px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>VALIDATION</h1>
+   <div class="container">
+    <form action="" onsubmit="return validate()">
+        <input type="email" placeholder="enter the mail" name="etm">
+        <div class="text"></div>
+        <br><br>
+        <input type="password" placeholder="enter the password" name="etp">
+        <div class="text"></div>
+        <br><br>
+        <input type="submit">
+    </form>
+   </div>
+
+   <script src="./vali.js"></script>
+</body>
+</html>

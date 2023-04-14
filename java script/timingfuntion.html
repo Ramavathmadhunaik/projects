@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fun1()
+        {
+            console.log("hey man")
+        }
+        let num = 1;
+        function printNum()
+        {
+            console.log(num);
+            num++
+        }
+    </script>
+</head>
+<body>
+    <h1>timing function</h1>
+    <h3>setTimeout</h3>
+    <button onclick="a=setTimeout(fun1,5000)">start</button>
+    <h3>clearTimeout</h3>
+    <button onclick="clearTimeout(a)">stop</button>
+    <h3>setinterval</h3>
+    <button onclick="a=setInterval(fun1,3000)">set interval</button>
+    <h3>cleaerinerval</h3>
+    <button onclick="clearInterval(a)">clare interval</button>
+
+<br>
+
+    <button onclick="a=setInterval(printNum,1000)">start</button><br>
+    <button onclick="clearInterval(a)">stop</button>
+    
+
+    
+</body>
+</html>
